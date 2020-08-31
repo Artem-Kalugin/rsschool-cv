@@ -1,0 +1,56 @@
+body{
+  font-family: 'Roboto', serif;
+  color: rgba(0,0,0,0.8);
+    font-size:18px;
+    background-image:url(img/bg.png);
+    background-repeat: repeat;
+    background-
+}
+
+main{
+  max-width:1024px;
+  margin:auto;
+
+}
+h3{
+  background-color:#F1F1FF;
+  margin:2px 0;
+  padding:2px 0 2px 2px;
+  font-size:22px;
+  text-transform:capitalize;
+}
+code{
+  font-size:12px;
+
+}
+p{
+  margin:2px 0;
+  padding:2px 0 2px 2px;
+  text-indent: 20px;
+}
+article{
+   box-shadow: 0 0 7px rgba(0,0,0,0.3);
+   padding:5px;
+   margin:10px 0;
+   background-color:white;
+}
+#me{
+  float:left;
+  max-width:25%;
+}
+
+img {
+  margin:10px 40% 0 40%;
+  border-radius:50%;
+  width: 20%;
+  height: auto;
+  box-shadow: 0 0 7px rgba(0,0,0,0.3);
+}
+#Name{
+  text-align:center;
+  margin:10px auto;
+  padding-right:10px;
+  font-weight: 700;
+  font-size:28px;
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
