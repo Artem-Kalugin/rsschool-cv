@@ -28,7 +28,7 @@ left: offset,
 ```
 # Education
 I have passed 400 of 1400 lessons on htmlacademy.ru<br>
-I'm also was on Itransition courses, but didn't pass it because of no enthusiasm to php.<br>
+I'm also was on Itransition courses, but didn't pass it because of no enthusiasm to php. <br>
 I'm a 3rd year student of BSUIR, the Informational Communications faculty.
 # English
 I Don't have real practice, but my media space is mostly on english. So i can understand the sense of the fluent speech, but my grammar is bad.
