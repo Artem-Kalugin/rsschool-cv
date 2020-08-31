@@ -1,4 +1,3 @@
-
 # About me
 My name is Artem Kalugin. You can contact me by email(aharlo4@gmail.com) or in social networks ([VK](https://vk.com/artyomkalugin)).
 # Summary
