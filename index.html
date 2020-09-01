@@ -1,46 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <title>Artem Kalugin CV</title>
 </head>
 <body>
-  <main>
-          <img src="img/me.png" alt="MyPhoto">
-          <p id="Name"><strong>Artem Kalugin</strong></p>
-  <section>
+  <div class="background">
+    <main>
+      <section>
+        <article>
+          <div class="wrapper-upper clearfix">
+            <div class="borders">
+              <div class="float-left ">
+                <img src="img/me.png" alt="MyPhoto">
+                <p id="Name">Artem Kalugin</p>
+                <p>hopes to become a web developer</p>
+              </div>
+              <div class="border"></div>
+              <div class="float-right">
+                <div class="wrapper-inside1">
+                  <h3>About me</h3>
+                  <p>My name is Artem Kalugin. You can contact me
+                    by email (<span id="blue">aharlo4@gmail.com</span>) or
+                    in social networks (<a href="https://vk.com/artyomkalugin">VK</a>).</p>
+                </div>
+                <div class="wrapper-inside">
+                  <h3>Summary</h3>
+                  <p>Nowadays i'm searching for an activity that will be good for me.
+                   I'm a 3rd year student of BSUIR, the Informational Communications faculty.
+                   I chose JS/Frontend courses because of creative part in websites programming.
+                   I'm really want to learn how to create good-looking sites and program it.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="borders">
+            <h3>Skills</h3>
+            <p>
+            <ul>
+              <li>Intermediate: HTML, CSS, Photoshop</li>
+              <li>Low: Javascript, PHP, MySQL, C++</li>
+              <li>Tools: Gulp, Mamp, SASS, Bootstrap, WordPress, Jquerry</li>
+            </ul>
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="borders">
+            <h3>Code Examples</h3>
+            <p>
+              My code for adaptive carousel animation on website:
+            <div class="code-background">
+              <code>
+                <pre>
+        $(".carousel-item-wrapper").click(function(){
 
-    <article>
-
-      <h3>About me</h3>
-      <p>My name is Artem Kalugin. You can contact me by email(<span id="blue">aharlo4@gmail.com</span>) or in social networks <a href="https://vk.com/artyomkalugin">VK</a>.</p>
-    </article>
-    </article>
-    <article>
-      <h3>Summary</h3>
-      <p>Nowadays i'm searching for an activity that will be good for me. I'm a 3rd year student of BSUIR, the Informational Communications faculty. I chose JS/Frontend courses because of creative part in websites programming. I'm really want to learn how to create good-looking sites and program it.</p>
-    </article>
-    <article>
-      <h3>Skills</h3>
-      <p>
-        <ul>
-          <li>Intermediate: HTML, CSS, Photoshop</li>
-          <li>Low: Javascript, PHP, MySQL, C++</li>
-          <li>Tools: Gulp, Mamp, SASS, Bootstrap, WordPress, Jquerry</li>
-        </ul>
-      </p>
-    </article>
-    <article>
-      <h3>Code Examples</h3>
-      <p>
-        My code for adaptive carousel animation on website:
-        <code><pre>
-          $(".carousel-item-wrapper").click(function(){
             ($('.active>.carouseln-item').index()+1)
               if ($(window).width()<600){
               offset = ($(window).width() - $('.active>.carouseln-item').width())/2 - ($(window).width()/2)*$(this).index();
@@ -55,25 +77,35 @@
               $(this).addClass('active', 1000, "easeOutBounce");
           });
         });
-        </pre> </code>
-      </p>
-    </article>
-    <article>
-      <h3>Education</h3>
-      <p>
-        <ul>
-          <li>I have passed 400 of 1400 lessons on htmlacademy.ru</li>
-          <li>I'm also was on Itransition courses, but didn't pass it because of no enthusiasm to php.</li>
-          <li>I'm a 3rd year student of BSUIR, the Informational Communications faculty.</li>
-        </ul>
-      </p>
-    </article>
-    <article>
-      <h3>English</h3>
-      <p>I Don't have real practice, but my media space is mostly on english. So i can understand the sense of the fluent speech, but my grammar is bad.
-      My english level, according to EPAM test, is <strong>A2+</strong>.</p>
-    </article>
-  </section>
-  </main>
+        </pre>
+              </code>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="borders">
+            <h3>Education</h3>
+            <p>
+            <ul>
+              <li>I have passed 400 of 1400 lessons on htmlacademy.ru</li>
+              <li>I'm also was on Itransition courses, but didn't pass it because of no enthusiasm to php.</li>
+              <li>I'm a 3rd year student of BSUIR, the Informational Communications faculty.</li>
+            </ul>
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="borders">
+            <h3>English</h3>
+            <p>I Don't have real practice, but my media space is mostly on english.
+               So i can understand the sense of the fluent speech, but my grammar is bad.
+              My english level, according to EPAM test, is <strong>A2+</strong>.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
 </body>
 </html>
